@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Postingan Blog Pertama Saya
-date: 2025-11-20  <-- FIX: Tanggal disederhanakan sesuai permintaan
+date: 2025-11-20 
 tags:
   - tips
   - eleventy
