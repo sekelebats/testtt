@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: Postingan Blog Pertama Saya
-date: 2025-11-20
+date: 2025-11-20  <-- FIX: Tanggal disederhanakan sesuai permintaan
 tags:
   - tips
   - eleventy
@@ -14,12 +14,18 @@ Eleventy secara otomatis akan menggunakan `base.njk` sebagai *layout* untuk post
 
 ## Fitur Markdown
 
-* Mudah dibaca
-* Cepat ditulis
-* Sangat cocok untuk website statis
+* **Mudah dibaca**
+* **Cepat ditulis**
+* Sangat cocok untuk *website* statis
 
 > Gunakan blockquote untuk kutipan atau catatan penting.
 
+### Contoh Kode JavaScript
+
 ```javascript
 // Contoh kode JavaScript
-console.log("Ini contoh sintaks highlighting!");
+function sapa(nama) {
+  console.log("Ini contoh sintaks highlighting!");
+  return `Halo, ${nama}!`;
+}
+```  <-- FIX: Penutup blok kode sudah ditambahkan.
