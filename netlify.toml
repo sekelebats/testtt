@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[dev]
+  command = "npm run dev"
+  publish = "_site"
+  targetPort = 8080 
+
+[[redirects]]
+  from = "/old-page"
+  to = "/new-page"
+  status = 301
+  force = true
